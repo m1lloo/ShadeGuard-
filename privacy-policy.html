@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - ShadeGuard</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #222; background: #fff; }
+    h1 { font-size: 28px; margin-bottom: 8px; }
+    h2 { font-size: 20px; margin-top: 32px; color: #333; }
+    .date { color: #666; margin-bottom: 24px; }
+    p, li { font-size: 15px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    strong { color: #111; }
+    .footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #ddd; font-size: 13px; color: #888; }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy</h1>
+  <p class="date">Last updated: June 16, 2026</p>
+
+  <h2>Overview</h2>
+  <p>ShadeGuard is a Chrome browser extension that detects manipulative dark patterns on websites. This privacy policy explains what data ShadeGuard accesses, how it is used, and our commitments to your privacy.</p>
+
+  <h2>What Data ShadeGuard Accesses</h2>
+  <p>While scanning web pages for dark patterns, ShadeGuard accesses the following:</p>
+  <ul>
+    <li><strong>Visible page text:</strong> The extension reads text content displayed on web pages to scan for dark pattern language (for example: "Only 3 left!", "ends in 02:14:33", "No thanks, I don't want to save money").</li>
+    <li><strong>DOM structure:</strong> The extension examines HTML elements and CSS class names to detect dark pattern markup (for example: countdown timer elements, scarcity badges, coupon popups).</li>
+    <li><strong>Page URL and title:</strong> The extension reads the current page URL and title to display detection results and store them locally per domain.</li>
+  </ul>
+
+  <h2>What ShadeGuard Does NOT Collect</h2>
+  <ul>
+    <li>ShadeGuard does NOT collect personally identifiable information (names, email addresses, physical addresses, phone numbers, etc.).</li>
+    <li>ShadeGuard does NOT collect or transmit payment information, credit card numbers, or financial data.</li>
+    <li>ShadeGuard does NOT collect health information, location data, or biometric data.</li>
+    <li>ShadeGuard does NOT collect passwords, authentication credentials, or security questions.</li>
+    <li>ShadeGuard does NOT read personal communications (emails, text messages, chat messages).</li>
+    <li>ShadeGuard does NOT log keystrokes, mouse movement, scroll position, or clicks.</li>
+    <li>ShadeGuard does NOT use analytics, tracking pixels, telemetry, or any form of remote monitoring.</li>
+    <li>ShadeGuard does NOT sell, share, or transfer any data to third parties.</li>
+    <li>ShadeGuard does NOT use or transfer data for purposes unrelated to dark pattern detection.</li>
+    <li>ShadeGuard does NOT use or transfer data to determine creditworthiness or for lending purposes.</li>
+  </ul>
+
+  <h2>How Data Is Used</h2>
+  <p>All data accessed by ShadeGuard is used exclusively for the following purposes:</p>
+  <ul>
+    <li><strong>Dark pattern detection:</strong> Scanning page text and DOM elements to identify manipulative design tactics across 14 categories (fake countdowns, false scarcity, hidden fees, subscription traps, confirmshaming, and more).</li>
+    <li><strong>Local display:</strong> Showing detection results in the extension popup and as a floating banner on the page.</li>
+    <li><strong>Local storage:</strong> Saving detection results per domain in Chrome's local storage so you can review them later in the History tab.</li>
+  </ul>
+
+  <h2>Data Storage</h2>
+  <ul>
+    <li>Detection results are stored in <code>chrome.storage.local</code> on your device.</li>
+    <li>User settings (which detection categories are enabled or disabled) are stored locally.</li>
+    <li>Results for the most recent 50 visited domains are kept. Older results are automatically deleted.</li>
+    <li>You can clear all stored data at any time by clicking the "Clear" button in the extension's Settings tab.</li>
+  </ul>
+
+  <h2>Data Retention</h2>
+  <p>All data is stored locally on your device and is automatically deleted when you uninstall the extension. ShadeGuard does not maintain any external servers, databases, or cloud storage.</p>
+
+  <h2>Third-Party Services</h2>
+  <p>ShadeGuard does not connect to, communicate with, or send data to any third-party services, APIs, servers, or external websites. The extension is entirely self-contained.</p>
+
+  <h2>Permissions</h2>
+  <p>ShadeGuard requests the following Chrome permissions:</p>
+  <ul>
+    <li><strong>activeTab:</strong> Used to access the current tab so the content script can scan page content for dark patterns.</li>
+    <li><strong>storage:</strong> Used to save detection results and user settings locally on your device.</li>
+    <li><strong>scripting:</strong> Used to inject detection scripts into web pages.</li>
+  </ul>
+  <p>These permissions are used solely for the purpose of detecting dark patterns and displaying results to the user.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>ShadeGuard is not directed at children under 13 and does not knowingly collect personal information from children.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this privacy policy from time to time. Any changes will be reflected in the extension's update notes on the Chrome Web Store.</p>
+
+  <h2>Contact</h2>
+  <p>If you have questions about this privacy policy, please open an issue on our GitHub repository or contact us at the email address listed on our Chrome Web Store listing.</p>
+
+  <div class="footer">
+    <p>ShadeGuard Privacy Policy | Chrome Web Store Extension</p>
+  </div>
+
+</body>
+</html>
