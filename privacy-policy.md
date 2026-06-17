@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated:** June 16, 2026
+**Last updated:** June 17, 2026
 
 ## Overview
 
@@ -48,7 +48,20 @@ All data is stored locally on your device and is automatically deleted when you 
 
 ## Third-Party Services
 
-ShadeGuard does not connect to, communicate with, or send data to any third-party services, APIs, servers, or external websites. The extension is entirely self-contained.
+ShadeGuard does not connect to, communicate with, or send data to any third-party services, APIs, servers, or external websites for the purpose of dark pattern detection. The extension is entirely self-contained for all scanning and detection functionality.
+
+### Remote Announcements (Non-Critical)
+
+ShadeGuard optionally fetches a small JSON file from GitHub Pages to display announcements in the extension popup. This is a one-way, read-only request:
+
+- **URL:** `https://m1lloo.github.io/ShadeGuard-/announcements.json`
+- **What is sent:** Nothing. No data, identifiers, or personal information is transmitted.
+- **What is received:** A JSON object containing a `message` (string) and `show` (boolean) field.
+- **Purpose:** To display optional announcements (e.g., new features, bug fixes) to users.
+- **Frequency:** At most once every 5 minutes, cached locally.
+- **Failure behavior:** If the request fails (network error, GitHub Pages unavailable), the extension continues to work normally. Announcements are non-critical.
+
+No personal data is ever sent to GitHub or any other external service.
 
 ## Permissions
 
