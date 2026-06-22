@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated:** June 17, 2026
+**Last updated:** June 22, 2026
 
 ## Overview
 
@@ -34,11 +34,15 @@ All data accessed by ShadeGuard is used exclusively for the following purposes:
 - **Dark pattern detection:** Scanning page text and DOM elements to identify manipulative design tactics across 14 categories (fake countdowns, false scarcity, hidden fees, subscription traps, confirmshaming, and more).
 - **Local display:** Showing detection results in the extension popup and as a floating banner on the page.
 - **Local storage:** Saving detection results per domain in Chrome's local storage so you can review them later in the History tab.
+- **Trust Calibration (optional):** If you choose to give feedback on detections with 👍/👎 buttons, your responses (which detection you agreed or disagreed with) are stored locally to show your personal accuracy stats. This feedback is scoped per domain and never transmitted.
+- **Cross-domain pattern tracking:** A count of how many sites have used each dark pattern type is stored locally to show you pattern prevalence across the web.
 
 ## Data Storage
 
 - Detection results are stored in `chrome.storage.local` on your device.
-- User settings (which detection categories are enabled or disabled) are stored locally.
+- User settings (which detection categories are enabled or disabled, accessibility preferences) are stored locally.
+- Optional feedback on detections (👍/👎) is stored locally, scoped per domain.
+- Cross-domain pattern statistics are stored locally.
 - Results for the most recent 50 visited domains are kept. Older results are automatically deleted.
 - You can clear all stored data at any time by clicking the "Clear" button in the extension's Settings tab.
 
@@ -68,7 +72,7 @@ No personal data is ever sent to GitHub or any other external service.
 ShadeGuard requests the following Chrome permissions:
 
 - **activeTab:** Used to access the current tab so the content script can scan page content for dark patterns.
-- **storage:** Used to save detection results and user settings locally on your device.
+- **storage:** Used to save detection results, user settings, optional feedback, and pattern statistics locally on your device.
 - **scripting:** Used to inject detection scripts into web pages.
 
 These permissions are used solely for the purpose of detecting dark patterns and displaying results to the user.
