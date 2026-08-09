@@ -1,4 +1,6 @@
 {
-  "message": "V2.5 has been released!",
-  "show": true
+  "message": "Welcome to the TMovies Site Release!",
+  "show": true,
+  "type": "smile",
+  "icon": "bi-emoji-smile"
 }
