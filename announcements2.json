@@ -1,4 +1,6 @@
 {
-  "message": "Welcome to the TMovies Site Release!",
-  "show": true
+  "message": "Collections & Release Calendar update soon!",
+  "show": true,
+  "type": "smile",
+  "icon": "bi-emoji-smile"
 }
