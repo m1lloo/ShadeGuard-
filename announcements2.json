@@ -1,6 +1,6 @@
 {
-  "message": "Big update coming very soon!",
+  "message": "V1.6 has been released, enjoy!",
   "show": true,
-  "type": "smile",
-  "icon": "bi-emoji-smile"
+  "type": "update",
+  "icon": "bi-megaphone"
 }
