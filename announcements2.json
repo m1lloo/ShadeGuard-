@@ -1,6 +1,6 @@
 {
-  "message": "V1.7 has been released, enjoy!",
+  "message": "https://discord.gg/CsCYadusjV",
   "show": true,
-  "type": "update",
-  "icon": "bi-megaphone"
+  "type": "info",
+  "icon": "bi-info-circle"
 }
