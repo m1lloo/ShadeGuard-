@@ -1,6 +1,6 @@
 {
-  "message": "https://discord.gg/CsCYadusjV",
+  "message": "The site is updating for V1.8, some things may not work until updated. We will change this banner when updated.",
   "show": true,
-  "type": "info",
-  "icon": "bi-info-circle"
+  "type": "critical",
+  "icon": "bi-exclamation-triangle"
 }
