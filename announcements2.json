@@ -1,6 +1,6 @@
 {
-  "message": "The site is updating for V1.8, some things may not work until updated. We will change this banner when updated.",
+  "message": "V1.8 has been fully pushed and everything will work as expected!",
   "show": true,
-  "type": "critical",
-  "icon": "bi-exclamation-triangle"
+  "type": "success",
+  "icon": "bi-megaphone"
 }
