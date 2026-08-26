@@ -1,6 +1,7 @@
 {
-  "message": "V1.8 has been fully pushed and everything will work as expected!",
+  "message": "🕊️ RIP Tim Curry (1946–2026) - a true screen legend.",
   "show": true,
-  "type": "success",
-  "icon": "bi-megaphone"
+  "type": "warning",
+  "icon": "bi-megaphone",
+  "banner": "assets/announcements/banner-info.png"
 }
