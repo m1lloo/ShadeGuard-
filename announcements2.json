@@ -1,7 +1,7 @@
 {
-  "message": "🕊️ RIP Tim Curry (1946–2026) - a true screen legend.",
+  "message": "V2 - Midnight Cinema - End Of September",
   "show": true,
-  "type": "warning",
+  "type": "update",
   "icon": "bi-megaphone",
   "banner": "assets/announcements/banner-info.png"
 }
