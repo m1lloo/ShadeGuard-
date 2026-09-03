@@ -1,7 +1,7 @@
 {
-  "message": "V2 - Midnight Cinema - End Of September",
+  "message": "TMovies Player is currently unavailable due to an upstream outage - we're monitoring the situation and awaiting restoration.",
   "show": true,
-  "type": "update",
-  "icon": "bi-megaphone",
+  "type": "critical",
+  "icon": "bi-exclamation-triangle",
   "banner": "assets/announcements/banner-info.png"
 }
