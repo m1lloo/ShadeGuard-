@@ -1,6 +1,6 @@
 {
   "message": "TMovies Player is currently unavailable due to an upstream outage - we're monitoring the situation and awaiting restoration.",
-  "show": true,
+  "show": false,
   "type": "critical",
   "icon": "bi-exclamation-triangle",
   "banner": "assets/announcements/banner-info.png"
