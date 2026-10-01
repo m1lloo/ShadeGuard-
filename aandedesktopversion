@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "title": "Issue with Desktop Version",
-  "reason": "While this is being fixed, check the web version.",
+  "title": "A&E: Under Pressure needs an update",
+  "reason": "This version of the desktop app is outdated and is no longer supported.",
   "downloadUrl": "https://a-e-under-pressure.vercel.app/"
 }
